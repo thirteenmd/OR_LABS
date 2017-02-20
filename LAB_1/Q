@@ -1,0 +1,17 @@
+Optimize the trafic from station Stefan cel Mare to Circul.
+	Keep the same number of arrivals.
+	Reduce the instances when there are 2 or more troleybuses arrived at the same time.
+	Make the time of waiting for a troleybus minimal.
+
+CHANGING TIME FOR A STATION WILL CHANGE THE TIME OF ARRIVAL TO TE OTHER STATIONS
+
+
+Q:
+How to save the data?
+	Graph with nodes as stations. +
+How to add the edges / transport routes?
+	Create adjacency matrix /maybe/
+
+
+To do:
+	Determine the nedded route from Stefan cel Mare to Circul. /Compare te first arrival time of te troleybuses./
