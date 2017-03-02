@@ -21,5 +21,14 @@ To do:
 FOR PROBLEM 1:
 	We work only with the traffic from Stefan cel Mare to Circul station! 
 	ALSO we suppose that the troleybus go from ScM to Circul using the same route that they go from Circul to ScM.
+
 	~So we will analyse the data from stations: Stefan cel Mare -> ASEM -> Circul.~
 	
+	ViTurcanu said that I may consider the Gradient Descendent algorithm.
+		I have to find a function that I will be using as a partial derivative and apply it to the station. Then I should shift the arrival time for one trolleybus and again compute the value of the partial derivative function, If the value is less than the previous one - I am on the right track -> continue shifting, else go to the next trolleybus on the list. There is an implementation of this algorithm in python.
+
+		So the BIG question IS how the hell am I supposed to get this function?
+
+		OK so after some research I undersood that for each trolleybus at each station I will have a function, and I guess the number of variables will be equal to the number of times a trolleybus passes thriugh this station. GREAT! Then the value of each variable will be the time when the trolleybus arrives at the station. In this way to find the optimal solution I will have to shift the arrival time of the trolleybus, which seems logical to me I guess? ¯\_(ツ)_/¯ Still that does not explain how to find the fuction. ¯\_(ツ)_/¯
+
+		
