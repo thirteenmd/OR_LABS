@@ -24,6 +24,27 @@ G.add_node("circul")
 G.add_node("stefan_cel_mare")
 #G.add_node("vladimirescu")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 #ADD EDGES THAT PASS TROUGH TE NODES (TROLEYBUSES THAT PASS TROUGH THE STATION)
 n = G.nodes()
 t_dict = {}
@@ -52,6 +73,4 @@ for i in range(len(n)):
 
 for item in t_dict:
     print(item,"   ",t_dict[item])
-
-
-
+"""

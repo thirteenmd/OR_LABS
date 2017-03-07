@@ -12,12 +12,6 @@ How to save the data?
 How to add the edges / transport routes?
 	Create adjacency matrix /maybe/
 
-
-To do:
-	Determine the nedded route from Stefan cel Mare to Circul. /Compare te first arrival time of te troleybuses./
-
-
-
 FOR PROBLEM 1:
 	We work only with the traffic from Stefan cel Mare to Circul station! 
 	ALSO we suppose that the troleybus go from ScM to Circul using the same route that they go from Circul to ScM.
@@ -31,4 +25,3 @@ FOR PROBLEM 1:
 
 		OK so after some research I undersood that for each trolleybus at each station I will have a function, and I guess the number of variables will be equal to the number of times a trolleybus passes thriugh this station. GREAT! Then the value of each variable will be the time when the trolleybus arrives at the station. In this way to find the optimal solution I will have to shift the arrival time of the trolleybus, which seems logical to me I guess? ¯\_(ツ)_/¯ Still that does not explain how to find the fuction. ¯\_(ツ)_/¯
 
-		
